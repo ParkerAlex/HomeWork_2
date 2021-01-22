@@ -5,7 +5,6 @@ import java.util.Scanner;
 public class Main {
 	
 
-	
 	public static void main(String[] args) {
 		
 		Rainbow rainbow = new Rainbow();
@@ -13,7 +12,7 @@ public class Main {
 		Scanner input = new Scanner(System.in);
 		
 	//	System.out.println("ВВедите число от 1 до 7 или от 12 до 76");
-		System.out.println("Vvedite chislo ot 1 до 7 ili ot 12 до 76");
+		System.out.println("Vvedite chislo ot 1 do 7 ili ot 12 do 76");
 		int number = input.nextInt();
 		
 		
@@ -106,16 +105,19 @@ public class Main {
 					
 					}
 							
-						}
-				  else {
-					     //System.out.println("ВВедено неправильное число");
-					  System.out.println("Vvedeno nepravilno chislo");
-				       }
-		     }
-			else { 
-				//  System.out.println("ВВедено двойное одинаковое число, полуцвета быть не может");
-				  System.out.println("Vvedeno dvoinoe odinakovoe chislo, polucveta ne bivaet");
-				 }	 
+						} else {
+								  //System.out.println("ВВедено неправильное число");
+								  System.out.println("Vvedeno nepravilno chislo");
+				               }
+				
+		     } else if (a == 0){
+		    	 System.out.println("Vvedeno nepravilno chislo");
+				
+				 
+			 }  else { 
+						//System.out.println("ВВедено двойное одинаковое число, полуцвета быть не может");
+						  System.out.println("Vvedeno dvoinoe odinakovoe chislo, polucveta ne bivaet");
+					 }
 			}
 	    	
 	    }
